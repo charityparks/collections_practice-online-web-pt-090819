@@ -33,6 +33,26 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
+  # using reduce method
+    # array.reduce(:+)
+
+  # using inject method (short)
+     # array.inject(:+)
+
+  # using inject method (long)
+     # array.inject do |sum,x|
+     #  sum + x
+     # end
+end
+
+sum_array([11,4,7,8,9,100,134])
 
 def add_s(array)
   array.collect do |word|
