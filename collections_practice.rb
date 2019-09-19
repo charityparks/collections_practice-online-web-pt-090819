@@ -39,7 +39,6 @@ sum_array(array)
     sum+=num
   end
   sum_array
-end
 
 def add_s(array)
   array.collect do |word|
